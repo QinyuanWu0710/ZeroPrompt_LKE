@@ -25,8 +25,8 @@ Latent Knowledge Estimator (LKE) aims to reliably measure factual knowledge embe
 ## Installation
 
 ```bash
-git clone [https://github.com/QinyuanWu0710/ZeroPrompt_LKE.git]
-cd [ZeroPrompt_LKE]
+git clone https://github.com/QinyuanWu0710/ZeroPrompt_LKE.git
+cd ZeroPrompt_LKE
 pip install -r requirements.txt
 ```
 
