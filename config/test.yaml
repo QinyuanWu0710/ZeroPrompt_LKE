@@ -1,0 +1,32 @@
+#this confugure file is used to provide the evaluation configuration
+#test model config
+model_name: meta-llama/Llama-2-7b
+model_path: meta-llama/Llama-2-7b
+tokenizer_path: meta-llama/Llama-2-7b
+#inference config
+implimentation: vllm
+
+#model loading parameters
+tensor_parallel_size: 1
+trust_remote_code: True 
+gpu_memory_utilization: 0.8
+max_model_len: 2048
+prompt_logprobs: 1
+max_new_tokens: 50
+tempature: 0.0
+
+#test data info
+test_dataset_name: QinyuanWu/T-Rex-MC #or add your local dataset path here
+test_relation_id: 4
+test_index_begin: 0
+test_index_end: 10
+random_seed: 10
+
+#prompt info
+lke_type: zp-lke
+lke_index: 0
+example_num: 50
+example_seperator: ' : '
+
+#result info
+save_path: .../lke_open_code/result
