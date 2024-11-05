@@ -15,6 +15,9 @@ Latent Knowledge Estimator (LKE) aims to reliably measure factual knowledge embe
 - Support for any custom prompt types (e.g., human-generated or machine-mined prompts).
 - A configurable pipeline to evaluate model knowledge, supporting various datasets.
 
+![Overview Diagram](figures/overview.png)
+![Input Diagram](figures/input.png)
+
 ## Requirements
 
 - vLLM >= 0.4.1
