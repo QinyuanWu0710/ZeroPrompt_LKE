@@ -1,5 +1,2 @@
 *.pyc
-.../config/test_llama2-7b_1_zp-lke_0.yaml/
-.../latent_knowledge_extractor/__pycache__/
-.../__pycache__/
-.../result/
+*.json
