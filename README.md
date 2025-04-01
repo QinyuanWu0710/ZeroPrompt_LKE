@@ -72,11 +72,35 @@ The system provides two types of evaluation:
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{wu2024towards,
-  title={Towards Reliable Latent Knowledge Estimation in LLMs: In-Context Learning vs. Prompting Based Factual Knowledge Extraction},
-  author={Wu, Qinyuan and Khan, Mohammad Aflah and Das, Soumi and Nanda, Vedant and Ghosh, Bishwamittra and Kolling, Camila and Speicher, Till and Bindschaedler, Laurent and Gummadi, Krishna P and Terzi, Evimaria},
-  journal={arXiv preprint arXiv:2404.12957},
-  year={2024}
+@inproceedings{DBLP:conf/wsdm/WuKDNGKSBGT25,
+  author       = {Qinyuan Wu and
+                  Mohammad Aflah Khan and
+                  Soumi Das and
+                  Vedant Nanda and
+                  Bishwamittra Ghosh and
+                  Camila Kolling and
+                  Till Speicher and
+                  Laurent Bindschaedler and
+                  Krishna P. Gummadi and
+                  Evimaria Terzi},
+  editor       = {Wolfgang Nejdl and
+                  S{\"{o}}ren Auer and
+                  Meeyoung Cha and
+                  Marie{-}Francine Moens and
+                  Marc Najork},
+  title        = {Towards Reliable Latent Knowledge Estimation in LLMs: Zero-Prompt
+                  Many-Shot Based Factual Knowledge Extraction},
+  booktitle    = {Proceedings of the Eighteenth {ACM} International Conference on Web
+                  Search and Data Mining, {WSDM} 2025, Hannover, Germany, March 10-14,
+                  2025},
+  pages        = {754--763},
+  publisher    = {{ACM}},
+  year         = {2025},
+  url          = {https://doi.org/10.1145/3701551.3703562},
+  doi          = {10.1145/3701551.3703562},
+  timestamp    = {Fri, 07 Mar 2025 18:29:45 +0100},
+  biburl       = {https://dblp.org/rec/conf/wsdm/WuKDNGKSBGT25.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
